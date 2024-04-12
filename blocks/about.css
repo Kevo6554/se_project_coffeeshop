@@ -14,6 +14,7 @@
   font-size: 44px;
   line-height: 52px;
   z-index: 2;
+  margin: 0;
 }
 
 .about__content {
@@ -22,10 +23,11 @@
 
 .about__paragraph {
   color: white;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
+  margin: 0;
 }
 
 .about__circle {

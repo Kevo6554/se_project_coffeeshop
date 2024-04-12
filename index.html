@@ -74,8 +74,8 @@
             convenience:
           </p>
 
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=W5jzy4pyXsM-zbXl"
@@ -87,8 +87,8 @@
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span> ~5min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=eTgaGt2gQIzzba2f"
@@ -100,8 +100,8 @@
               <p class="recipes__video-caption">
                 <span>French press recipe</span> ~15min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section id="bookatable" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -110,6 +110,7 @@
               <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
+                required
                 class="form__input"
                 id="name"
                 name="name"
@@ -118,6 +119,7 @@
               <label for="guest" class="form__label">Number of guest *</label>
               <input
                 type="number"
+                required
                 class="form__input"
                 id="guest"
                 name="guest"
@@ -126,6 +128,7 @@
               <label for="d&t" class="form__label">Date & Time *</label>
               <input
                 type="datetime-local"
+                required
                 class="form__input"
                 id="d&t"
                 name="d&t"
@@ -133,6 +136,7 @@
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
+                required
                 class="form__input"
                 id="email"
                 name="email"
@@ -143,6 +147,7 @@
             <label for="terms" class="form__label form__label_type_checkbox">
               <input
                 type="checkbox"
+                required
                 class="form__checkbox"
                 id="terms"
                 name="terms"
