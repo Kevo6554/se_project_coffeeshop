@@ -47,7 +47,7 @@
 }
 
 .footer__social-link:hover {
-  transition: ease #c1c1c1 0;
+  color: ease #c1c1c1 0;
 }
 
 .footer__copyright {

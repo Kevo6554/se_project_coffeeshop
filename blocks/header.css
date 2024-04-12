@@ -7,9 +7,9 @@
   position: relative;
   box-sizing: border-box;
   padding: 30px 80px 40px;
-  background: url(../images/background_header.svg) center no-repeat;
+  background: url(../images/background_header.svg) center/cover no-repeat;
   background-color: #ffffff;
-  position: relative;
+
   z-index: 1;
 }
 
